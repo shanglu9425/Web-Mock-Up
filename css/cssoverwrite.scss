@@ -1,23 +1,8 @@
 
-
+/* =============== nav ===============*/
 li {
     text-decoration:none!important;
-    }
-.nav-margin-top {
-    margin-top: 40px;
-    a {
-        background-color: #f3f3f3;
-        border-color: #ebebeb;
-        color: rgba(115, 120, 129, 0.75);
-        
-    }
 }
-
-.border-bottom-none {
-    border-bottom: none!important;
-    width: 0px;
-    }
-    
 /* ========== people and roles ===========*/
 .search-input {
     
@@ -126,7 +111,11 @@ li {
         }
             
             }
-      }            
+      }
+      
+/*================== MISC===================*/    
+      
+                  
 /* ============= boostrap overwrite ============ */
 
     /* ===== button ===*/
