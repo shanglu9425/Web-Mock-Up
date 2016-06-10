@@ -1,11 +1,13 @@
 /* =============== nav ===============*/
-li {
+.nav li {
   text-decoration: none !important; }
+  .nav li a {
+    background-color: #f3f3f3; }
 
 /* ========== people and roles ===========*/
 .search-input i {
   position: absolute;
-  left: 10px;
+  left: 25px;
   bottom: 10px; }
 .search-input input {
   text-indent: 20px;
