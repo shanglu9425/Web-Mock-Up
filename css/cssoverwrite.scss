@@ -1,0 +1,172 @@
+
+
+li {
+    text-decoration:none!important;
+    }
+.nav-margin-top {
+    margin-top: 40px;
+    a {
+        background-color: #f3f3f3;
+        border-color: #ebebeb;
+        color: rgba(115, 120, 129, 0.75);
+        
+    }
+}
+
+.border-bottom-none {
+    border-bottom: none!important;
+    width: 0px;
+    }
+    
+/* ========== people and roles ===========*/
+.search-input {
+    
+    i {
+    position: absolute; left: 10px; bottom: 10px;
+    }
+    input {
+        text-indent: 20px;
+        border: 1px solid #D5D5D5;
+    }
+}
+
+.table-hover {
+    margin-top: 50px;
+        tr {    
+                .role-title {
+                    text-align: center; 
+                }
+                th {border-top: none !important;
+                }
+        }
+        tr:hover {background: none!important;
+        }
+        
+        tbody {
+            tr {
+               th {
+                   padding-top:20px;
+                   border-bottom: 1px solid #ebebeb;
+                     button {
+                           position: relative;
+                           margin-left: 20px;
+                    }
+                  }
+               }
+        }
+        
+    
+    
+}
+
+
+.role-selector {
+    padding-left: 22px!important;   
+}
+
+#add-person {
+        th{
+            color: #B1B1B1;
+            input:focus {
+                border-width: 0px 0px 1px;
+                }
+                input {
+                    border-width: 0px 0px 0px;
+                    border-style: none none solid;
+                    border-image: none;
+                    outline: 0px none;
+                    background: transparent none repeat scroll 0% 0%;
+                    color: black;
+                }
+            }
+            
+            }
+            
+/* ================= Tags ============================*/            
+
+.tags-section {
+    margin-top: 20px;
+}
+
+.tags-input {
+    padding-left: 0px;;
+    li{
+        margin-top: 20px;
+        list-style-type:none;   
+        input 
+            {
+                border: 1px solid #D5D5D5;
+                width: inherit;
+                display: inline-block!important;
+            }
+        .btn {
+            margin-left: 20px;
+        }
+            
+            }
+      }    
+/* ================= Locations ============================*/  
+.locations-section {
+    margin-top: 20px;
+}
+
+.locations-input {
+    padding-left: 0px;;
+    li{
+        margin-top: 20px;
+        list-style-type:none;   
+        input 
+            {
+                border: 1px solid #D5D5D5;
+                width: inherit;
+                display: inline-block!important;
+            }
+        .btn {
+            margin-left: 20px;
+        }
+            
+            }
+      }            
+/* ============= boostrap overwrite ============ */
+
+    /* ===== button ===*/
+.btn-save {
+    color: white;
+    background-color: #00A74D;
+}
+.btn-save:hover {
+    color: white;
+    background-color: #057B3B; 
+} 
+.btn-add {
+    color: white;
+    background-color: #0070BF;
+}
+.btn-add:hover {
+    color: white;
+    background-color: #025E9F; 
+} 
+
+     /* ===== grid ===*/
+.col-md-3 {
+    padding-left: 0px;
+}    
+.col-md-12 {
+    padding-left: 0px;
+}
+     /* ===== table ===*/
+.table > thead > tr > th, .table > tbody > tr > th, 
+.table > tfoot > tr > th, .table > thead > tr > td, 
+.table > tbody > tr > td, .table > tfoot > tr > td {
+    padding-left: 0px;
+    
+}
+.content {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    }
+
+footer.main {
+    border-top: none!important;
+    }                       
