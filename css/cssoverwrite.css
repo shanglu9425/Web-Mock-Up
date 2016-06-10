@@ -24,7 +24,7 @@ li {
     border-bottom: 1px solid #ebebeb; }
     .table-hover tbody tr th button {
       position: relative;
-      margin-left: 20px; }
+      margin-left: 30px; }
 
 .role-selector {
   padding-left: 22px !important; }
@@ -74,6 +74,10 @@ li {
       margin-left: 20px; }
 
 /*================== MISC===================*/
+.border-bottom-none {
+  border-bottom: none !important;
+  width: 0px; }
+
 /* ============= boostrap overwrite ============ */
 /* ===== button ===*/
 .btn-save {
@@ -94,10 +98,12 @@ li {
 
 /* ===== grid ===*/
 .col-md-3 {
-  padding-left: 0px; }
+  padding-left: 15px;
+  padding-right: 0px; }
 
 .col-md-12 {
-  padding-left: 0px; }
+  padding-left: 15px;
+  padding-right: 0px; }
 
 /* ===== table ===*/
 .table > thead > tr > th, .table > tbody > tr > th,
