@@ -101,6 +101,38 @@
 .float-left {
   float: left; }
 
+/*=========== check-box animation ==========*/
+input[type="checkbox"]:after, input[type="checkbox"]:active:after:after {
+  border-radius: 2px;
+  width: 5px;
+  height: 5px;
+  padding: 2px;
+  box-shadow: 0 0 0 2px #EEE;
+  content: '';
+  display: inline-block; }
+
+input[type="checkbox"] {
+  background: #EEE;
+  box-shadow: 0 0 0 0 #3B99FC inset, 0 0 0 2px #CCCCCC inset, 0 0 0 8px #EEE inset, 0 0 0 0 #ddd inset, 0 0 0 0 #ddd;
+  padding: 8px;
+  border-radius: 2px;
+  display: block;
+  transition: all .2s;
+  zoom: 1; }
+
+input[type="checkbox"]:active {
+  background: #ddd;
+  box-shadow: 0 0 0 0 #3B99FC inset, 0 0 0 2px #CCCCCC inset, 0 0 0 0 #EEE inset, 0 0 0 8px #ddd inset, 0 0 0 12px #ddd; }
+
+input[type="checkbox"]:checked:active {
+  background: #3B99FC;
+  box-shadow: 0 0 0 8px #3B99FC inset, 0 0 0 0 #CCCCCC inset, 0 0 0 8px #EEE inset, 0 0 0 12px #ddd inset, 0 0 0 8px #D6E5E4; }
+
+input[type="checkbox"]:checked {
+  background: #F9F9F9;
+  box-shadow: 0 0 0 8px #3B99FC inset, 0 0 0 0 #CCCCCC inset, 0 0 0 8px #EEE inset, 0 0 0 0 #ddd inset, 0 0 0 0 #ddd;
+  content: url(http://i.imgur.com/OrSqEu5.png); }
+
 /* ============= boostrap overwrite ============ */
 /* ===== button ===*/
 .btn-save {
