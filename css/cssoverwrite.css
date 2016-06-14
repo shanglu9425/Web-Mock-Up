@@ -101,7 +101,7 @@
 .float-left {
   float: left; }
 
-/*=========== check-box animation ==========*/
+/*=========== check-box animation ==========
 input[type="checkbox"]:after, input[type="checkbox"]:active:after:after {
   border-radius: 2px;
   width: 5px;
@@ -109,8 +109,8 @@ input[type="checkbox"]:after, input[type="checkbox"]:active:after:after {
   padding: 2px;
   box-shadow: 0 0 0 2px #EEE;
   content: '';
-  display: inline-block; }
-
+  display: inline-block;
+}*/
 input[type="checkbox"] {
   background: #EEE;
   box-shadow: 0 0 0 0 #3B99FC inset, 0 0 0 2px #CCCCCC inset, 0 0 0 8px #EEE inset, 0 0 0 0 #ddd inset, 0 0 0 0 #ddd;

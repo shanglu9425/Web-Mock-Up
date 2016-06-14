@@ -144,7 +144,7 @@
 }
 
 
-/*=========== check-box animation ==========*/
+/*=========== check-box animation ==========
 input[type="checkbox"]:after, input[type="checkbox"]:active:after:after {
   border-radius: 2px;
   width: 5px;
@@ -153,7 +153,7 @@ input[type="checkbox"]:after, input[type="checkbox"]:active:after:after {
   box-shadow: 0 0 0 2px #EEE;
   content: '';
   display: inline-block;
-}
+}*/
 
 input[type="checkbox"] {
 	background: #EEE;
