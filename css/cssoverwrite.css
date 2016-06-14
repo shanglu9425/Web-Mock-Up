@@ -13,41 +13,50 @@
   text-indent: 20px;
   border: 1px solid #D5D5D5; }
 
-.role-section .table-hover {
+.role-section tr .role-title {
+  text-align: center; }
+.role-section tr th {
+  border-top: none !important; }
+.role-section tr:hover {
+  background: none !important; }
+.role-section tbody tr td {
+  color: black;
+  padding-top: 25px;
+  border-bottom: 1px solid #ebebeb; }
+  .role-section tbody tr td button {
+    position: relative;
+    margin-left: 30px; }
+.role-section tbody tr th {
+  padding-top: 25px;
+  border-bottom: 1px solid #ebebeb; }
+
+.table-hover {
   margin-top: 50px; }
-  .role-section .table-hover .table-name-padding {
-    padding-right: 50px;
-    padding-top: 25px; }
-  .role-section .table-hover .table-email-padding {
-    padding-right: 50px;
-    padding-top: 25px; }
-  .role-section .table-hover tr .role-title {
-    text-align: center; }
-  .role-section .table-hover tr th {
-    border-top: none !important; }
-  .role-section .table-hover tr:hover {
-    background: none !important; }
-  .role-section .table-hover tbody tr th {
-    padding-top: 25px;
-    border-bottom: 1px solid #ebebeb; }
-    .role-section .table-hover tbody tr th button {
-      position: relative;
-      margin-left: 30px; }
+
+.table-name-padding {
+  padding-right: 50px;
+  padding-top: 25px; }
+
+.table-email-padding {
+  padding-right: 50px;
+  padding-top: 25px; }
 
 .role-selector {
   padding-left: 22px !important; }
 
-#add-person th {
+.add-person__td {
   color: #B1B1B1; }
-  #add-person th input:focus {
-    border-width: 0px 0px 1px; }
-  #add-person th input {
-    border-width: 0px 0px 0px;
-    border-style: none none solid;
-    border-image: none;
-    outline: 0px none;
-    background: transparent none repeat scroll 0% 0%;
-    color: black; }
+  .add-person__td input:focus {
+    border-width: 0px 0px 1px;
+    border-color: #D6D6D6; }
+
+.add-person__input {
+  border-width: 0px 0px 0px;
+  border-style: none none solid;
+  border-image: none;
+  outline: 0px none;
+  background: transparent none repeat scroll 0% 0%;
+  color: black; }
 
 /* ================= Tags ============================*/
 .tags-section {
@@ -83,7 +92,7 @@
 
 /*================== MISC===================*/
 .border-bottom-none {
-  border-bottom: none !important;
+  border: none !important;
   width: 0px; }
 
 .float-right {
@@ -91,54 +100,6 @@
 
 .float-left {
   float: left; }
-  
-/*================= check-box =================*/
-input[type="checkbox"]:active:after {
-  border-radius: 100%;
-  margin: -10px;
-  padding: 8px;
-  box-shadow: 0 0 0 12px #EEE;
-  content: '';
-  display: inline-block;
-}
-
-input[type="checkbox"]:after,
-input[type="checkbox"]:active:after:after {
-  border-radius: 50px;
-
-  padding: 2px;
-  box-shadow: 0 0 0 2px #EEE;
-  content: '';
-  display: inline-block;
-}
-
-
-input[type="checkbox"] {
-  background: #EEE;
-  box-shadow: 0 0 0 0 #009688 inset;
-  padding: 5px;
-  border-radius: 50px;
-  display: block;
-  transition: all .2s;
-  zoom: 2;
-}
-
-input[type="checkbox"]:active {
-  background: #ddd;
-  box-shadow: 0 0 0 0 #009688 inset, 0 0 0 2px #666666 inset, 0 0 0 0 #EEE inset, 0 0 0 8px #ddd inset, 0 0 0 12px #ddd;
-}
-
-input[type="checkbox"]:checked:active {
-  background: #009688;
-  box-shadow: 0 0 0 8px #009688 inset, 0 0 0 0 #666666 inset, 0 0 0 5px #EEE inset, 0 0 0 8px #ddd inset, 0 0 0 8px #D6E5E4;
-}
-
-input[type="checkbox"]:checked {
-  background: #F9F9F9;
-  box-shadow: 0 0 0 8px #009688 inset, 0 0 0 0 #666666 inset, 0 0 0 5px #EEE inset, 0 0 0 0 #ddd inset, 0 0 0 0 #ddd;
-}
-      
-  
 
 /* ============= boostrap overwrite ============ */
 /* ===== button ===*/

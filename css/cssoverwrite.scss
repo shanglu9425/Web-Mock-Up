@@ -20,12 +20,6 @@
     }
 }
 .role-section {
-        .table-hover {
-            margin-top: 50px;
-            .table-name-padding { padding-right: 50px; padding-top: 25px;
-            }
-            .table-email-padding { padding-right: 50px; padding-top: 25px;
-            }
                 tr {    
                         .role-title {
                             text-align: center; 
@@ -33,46 +27,62 @@
                         th {border-top: none !important;
                         }
                 }
-                tr:hover {background: none!important;
+                tr:hover {
+                    background: none!important;
                 }
                 
                 tbody {
                         tr {
+                        td {
+                            color: black;
+                            padding-top:25px;
+                            border-bottom: 1px solid #ebebeb;
+                            button {
+                                position: relative;
+                                margin-left: 30px;
+                            }
+                        }
                         th {
                             padding-top:25px;
                             border-bottom: 1px solid #ebebeb;
-                                button {
-                                    position: relative;
-                                    margin-left: 30px;
-                                }
                             }
                         }
                     }
                 }
-         }
 
+.table-hover {
+            margin-top: 50px;
+}
+.table-name-padding { 
+    padding-right: 50px;
+    padding-top: 25px;
+}
+.table-email-padding { 
+    padding-right: 50px; 
+    padding-top: 25px;
+}
 
 .role-selector {
     padding-left: 22px!important;   
 }
 
-#add-person {
-        th{
-            color: #B1B1B1;
-            input:focus {
-                border-width: 0px 0px 1px;
-                }
-                input {
-                    border-width: 0px 0px 0px;
-                    border-style: none none solid;
-                    border-image: none;
-                    outline: 0px none;
-                    background: transparent none repeat scroll 0% 0%;
-                    color: black;
-                }
-            }
-            
-            }
+.add-person__td {
+     color: #B1B1B1;
+     
+     input:focus {
+        border-width: 0px 0px 1px;
+        border-color: #D6D6D6;
+     }
+}
+                        
+.add-person__input {
+    border-width: 0px 0px 0px;
+    border-style: none none solid;
+    border-image: none;
+    outline: 0px none;
+    background: transparent none repeat scroll 0% 0%;
+    color: black;
+}         
             
 /* ================= Tags ============================*/            
 
@@ -122,7 +132,7 @@
       
 /*================== MISC===================*/    
 .border-bottom-none {
-    border-bottom: none!important;
+    border: none!important;
     width: 0px;
 }      
 
