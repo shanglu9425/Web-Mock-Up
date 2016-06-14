@@ -131,7 +131,7 @@ input[type="checkbox"]:checked:active {
 input[type="checkbox"]:checked {
   background: #F9F9F9;
   box-shadow: 0 0 0 8px #3B99FC inset, 0 0 0 0 #CCCCCC inset, 0 0 0 8px #EEE inset, 0 0 0 0 #ddd inset, 0 0 0 0 #ddd;
-  content: url(http://i.imgur.com/OrSqEu5.png); }
+  content: url(../checkbox.png); }
 
 /* ============= boostrap overwrite ============ */
 /* ===== button ===*/
