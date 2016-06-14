@@ -28,7 +28,7 @@
   .role-section .table-hover tr:hover {
     background: none !important; }
   .role-section .table-hover tbody tr th {
-    padding-top: 20px;
+    padding-top: 25px;
     border-bottom: 1px solid #ebebeb; }
     .role-section .table-hover tbody tr th button {
       position: relative;
@@ -91,6 +91,54 @@
 
 .float-left {
   float: left; }
+  
+/*================= check-box =================*/
+input[type="checkbox"]:active:after {
+  border-radius: 100%;
+  margin: -10px;
+  padding: 8px;
+  box-shadow: 0 0 0 12px #EEE;
+  content: '';
+  display: inline-block;
+}
+
+input[type="checkbox"]:after,
+input[type="checkbox"]:active:after:after {
+  border-radius: 50px;
+
+  padding: 2px;
+  box-shadow: 0 0 0 2px #EEE;
+  content: '';
+  display: inline-block;
+}
+
+
+input[type="checkbox"] {
+  background: #EEE;
+  box-shadow: 0 0 0 0 #009688 inset;
+  padding: 5px;
+  border-radius: 50px;
+  display: block;
+  transition: all .2s;
+  zoom: 2;
+}
+
+input[type="checkbox"]:active {
+  background: #ddd;
+  box-shadow: 0 0 0 0 #009688 inset, 0 0 0 2px #666666 inset, 0 0 0 0 #EEE inset, 0 0 0 8px #ddd inset, 0 0 0 12px #ddd;
+}
+
+input[type="checkbox"]:checked:active {
+  background: #009688;
+  box-shadow: 0 0 0 8px #009688 inset, 0 0 0 0 #666666 inset, 0 0 0 5px #EEE inset, 0 0 0 8px #ddd inset, 0 0 0 8px #D6E5E4;
+}
+
+input[type="checkbox"]:checked {
+  background: #F9F9F9;
+  box-shadow: 0 0 0 8px #009688 inset, 0 0 0 0 #666666 inset, 0 0 0 5px #EEE inset, 0 0 0 0 #ddd inset, 0 0 0 0 #ddd;
+}
+      
+  
 
 /* ============= boostrap overwrite ============ */
 /* ===== button ===*/
