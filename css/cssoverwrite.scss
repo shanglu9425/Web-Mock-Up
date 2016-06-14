@@ -19,32 +19,37 @@
         border: 1px solid #D5D5D5;
     }
 }
-
-.table-hover {
-    margin-top: 50px;
-        tr {    
-                .role-title {
-                    text-align: center; 
+.role-section {
+        .table-hover {
+            margin-top: 50px;
+            .table-name-padding { padding-right: 50px; padding-top: 25px;
+            }
+            .table-email-padding { padding-right: 50px; padding-top: 25px;
+            }
+                tr {    
+                        .role-title {
+                            text-align: center; 
+                        }
+                        th {border-top: none !important;
+                        }
                 }
-                th {border-top: none !important;
+                tr:hover {background: none!important;
                 }
-        }
-        tr:hover {background: none!important;
-        }
-        
-        tbody {
-            tr {
-               th {
-                   padding-top:20px;
-                   border-bottom: 1px solid #ebebeb;
-                     button {
-                           position: relative;
-                           margin-left: 30px;
+                
+                tbody {
+                        tr {
+                        th {
+                            padding-top:20px;
+                            border-bottom: 1px solid #ebebeb;
+                                button {
+                                    position: relative;
+                                    margin-left: 30px;
+                                }
+                            }
+                        }
                     }
-                  }
-               }
-             }
-           }
+                }
+         }
 
 
 .role-selector {
@@ -120,6 +125,13 @@
     border-bottom: none!important;
     width: 0px;
 }      
+
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
                   
 /* ============= boostrap overwrite ============ */
 
@@ -141,15 +153,6 @@
     background-color: #025E9F; 
 } 
 
-     /* ===== grid ===*/
-.col-md-3 {
-    padding-left: 15px;
-    padding-right: 0px;
-}    
-.col-md-12 {
-    padding-left: 15px;
-    padding-right: 0px;
-}
      /* ===== table ===*/
 .table > thead > tr > th, .table > tbody > tr > th, 
 .table > tfoot > tr > th, .table > thead > tr > td, 
