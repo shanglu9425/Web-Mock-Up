@@ -1,17 +1,10 @@
-/* =============== nav ===============*/
-.nav li {
-  text-decoration: none !important; }
-  .nav li a {
-    background-color: #f3f3f3; }
-
 /* ========== people and roles ===========*/
 .search-input i {
   position: absolute;
   left: 25px;
   bottom: 10px; }
 .search-input input {
-  text-indent: 20px;
-  border: 1px solid #D5D5D5; }
+  text-indent: 20px; }
 
 .role-section tr .role-title {
   text-align: center; }
@@ -44,20 +37,6 @@
 .role-selector {
   padding-left: 22px !important; }
 
-.add-person__td {
-  color: #B1B1B1; }
-  .add-person__td input:focus {
-    border-width: 0px 0px 1px;
-    border-color: #D6D6D6; }
-
-.add-person__input {
-  border-width: 0px 0px 0px;
-  border-style: none none solid;
-  border-image: none;
-  outline: 0px none;
-  background: transparent none repeat scroll 0% 0%;
-  color: black; }
-
 /* ================= Tags ============================*/
 .tags-section {
   margin-top: 20px; }
@@ -68,8 +47,6 @@
     margin-top: 20px;
     list-style-type: none; }
     .tags-input li input {
-      border: 1px solid #D5D5D5;
-      width: inherit;
       display: inline-block !important; }
     .tags-input li .btn {
       margin-left: 20px; }
@@ -90,79 +67,11 @@
     .locations-input li .btn {
       margin-left: 20px; }
 
-/*================== MISC===================*/
-.border-bottom-none {
-  border: none !important;
-  width: 0px; }
-
-.float-right {
-  float: right; }
-
-.float-left {
-  float: left; }
-
-/*=========== check-box animation ==========
-input[type="checkbox"]:after, input[type="checkbox"]:active:after:after {
-  border-radius: 2px;
-  width: 5px;
-  height: 5px;
-  padding: 2px;
-  box-shadow: 0 0 0 2px #EEE;
-  content: '';
-  display: inline-block;
-}*/
-input[type="checkbox"] {
-  background: #EEE;
-  box-shadow: 0 0 0 0 #3B99FC inset, 0 0 0 2px #CCCCCC inset, 0 0 0 8px #EEE inset, 0 0 0 0 #ddd inset, 0 0 0 0 #ddd;
-  padding: 8px;
-  border-radius: 2px;
-  display: block;
-  transition: all .2s;
-  zoom: 1; }
-
-input[type="checkbox"]:active {
-  background: #ddd;
-  box-shadow: 0 0 0 0 #3B99FC inset, 0 0 0 2px #CCCCCC inset, 0 0 0 0 #EEE inset, 0 0 0 8px #ddd inset, 0 0 0 12px #ddd; }
-
-input[type="checkbox"]:checked:active {
-  background: #3B99FC;
-  box-shadow: 0 0 0 8px #3B99FC inset, 0 0 0 0 #CCCCCC inset, 0 0 0 8px #EEE inset, 0 0 0 12px #ddd inset, 0 0 0 8px #D6E5E4; }
-
-input[type="checkbox"]:checked {
-  background: #F9F9F9;
-  box-shadow: 0 0 0 8px #3B99FC inset, 0 0 0 0 #CCCCCC inset, 0 0 0 8px #EEE inset, 0 0 0 0 #ddd inset, 0 0 0 0 #ddd;
-  content: url(../checkbox.png); }
-
 /* ============= boostrap overwrite ============ */
-/* ===== button ===*/
-.btn-save {
-  color: white;
-  background-color: #00A74D; }
-
-.btn-save:hover {
-  color: white;
-  background-color: #057B3B; }
-
-.btn-add {
-  color: white;
-  background-color: #0070BF; }
-
-.btn-add:hover {
-  color: white;
-  background-color: #025E9F; }
-
 /* ===== table ===*/
 .table > thead > tr > th, .table > tbody > tr > th,
 .table > tfoot > tr > th, .table > thead > tr > td,
 .table > tbody > tr > td, .table > tfoot > tr > td {
   padding-left: 0px; }
-
-.content {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 20px; }
-
-footer.main {
-  border-top: none !important; }
 
 /*# sourceMappingURL=cssoverwrite.css.map */
