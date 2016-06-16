@@ -1,5 +1,5 @@
 
-/* ========== people and roles ===========*/
+// People/roles tab
 .search-input {      
     i {
         position: absolute; 
@@ -30,10 +30,6 @@
                 color: black;
                 padding-top:25px;
                 border-bottom: 1px solid #ebebeb;
-                button {
-                    position: relative;
-                    margin-left: 30px;
-                }
             }
             th {
                 padding-top:25px;
@@ -46,10 +42,12 @@
 .table-hover {
     margin-top: 50px;
 }
+
 .table-name-padding { 
     padding-right: 50px;
     padding-top: 25px;
 }
+
 .table-email-padding { 
     padding-right: 50px; 
     padding-top: 25px;
@@ -58,7 +56,8 @@
 .role-selector {
     padding-left: 22px!important;   
 }                       
-                      
+
+// Tags tab                      
 .tags-section {
     margin-top: 20px;
 }
@@ -80,6 +79,7 @@
     }
 }               
 
+// Locations tab
 .locations-section {
     margin-top: 20px;
 }
