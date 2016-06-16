@@ -1,7 +1,6 @@
 
 /* ========== people and roles ===========*/
-.search-input {
-    
+.search-input {  
     i {
     position: absolute; 
     left: 25px; 
@@ -11,39 +10,40 @@
         text-indent: 20px;
     }
 }
+
 .role-section {
-                tr {    
-                        .role-title {
-                            text-align: center; 
-                        }
-                        th {border-top: none !important;
-                        }
-                }
-                tr:hover {
-                    background: none!important;
-                }
-                
-                tbody {
-                        tr {
-                        td {
-                            color: black;
-                            padding-top:25px;
-                            border-bottom: 1px solid #ebebeb;
-                            button {
-                                position: relative;
-                                margin-left: 30px;
-                            }
-                        }
-                        th {
-                            padding-top:25px;
-                            border-bottom: 1px solid #ebebeb;
-                            }
-                        }
-                    }
-                }
+    tr {    
+    .role-title {
+        text-align: center; 
+    }
+    th {
+        border-top: none !important;
+    }
+    }
+    tr:hover {
+        background: none!important;
+    }        
+    tbody {
+        tr {
+        td {
+             color: black;
+             padding-top:25px;
+             border-bottom: 1px solid #ebebeb;
+             button {
+                    position: relative;
+                    margin-left: 30px;
+            }
+        }
+        th {
+            padding-top:25px;
+            border-bottom: 1px solid #ebebeb;
+            }
+        }
+        }
+}
 
 .table-hover {
-            margin-top: 50px;
+    margin-top: 50px;
 }
 .table-name-padding { 
     padding-right: 50px;
@@ -71,6 +71,8 @@
         list-style-type:none;   
         input 
             {
+                border: 1px solid #D5D5D5;
+                width: inherit;
                 display: inline-block!important;
             }
         .btn {
@@ -78,8 +80,10 @@
         }
             
             }
-      }    
+}
+               
 /* ================= Locations ============================*/  
+
 .locations-section {
     margin-top: 20px;
 }

@@ -47,6 +47,8 @@
     margin-top: 20px;
     list-style-type: none; }
     .tags-input li input {
+      border: 1px solid #D5D5D5;
+      width: inherit;
       display: inline-block !important; }
     .tags-input li .btn {
       margin-left: 20px; }
