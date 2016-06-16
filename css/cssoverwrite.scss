@@ -1,10 +1,10 @@
 
 /* ========== people and roles ===========*/
-.search-input {  
+.search-input {      
     i {
-    position: absolute; 
-    left: 25px; 
-    bottom: 10px;
+        position: absolute; 
+        left: 25px; 
+        bottom: 10px;
     }
     input {
         text-indent: 20px;
@@ -13,33 +13,34 @@
 
 .role-section {
     tr {    
-    .role-title {
-        text-align: center; 
-    }
-    th {
-        border-top: none !important;
-    }
+        .role-title {
+            text-align: center; 
+        }
+        th {
+            border-top: none !important;
+        }
     }
     tr:hover {
         background: none!important;
-    }        
+    }
+            
     tbody {
         tr {
-        td {
-             color: black;
-             padding-top:25px;
-             border-bottom: 1px solid #ebebeb;
-             button {
+            td {
+                color: black;
+                padding-top:25px;
+                border-bottom: 1px solid #ebebeb;
+                button {
                     position: relative;
                     margin-left: 30px;
+                }
+            }
+            th {
+                padding-top:25px;
+                border-bottom: 1px solid #ebebeb;
             }
         }
-        th {
-            padding-top:25px;
-            border-bottom: 1px solid #ebebeb;
-            }
-        }
-        }
+    }
 }
 
 .table-hover {
@@ -57,52 +58,46 @@
 .role-selector {
     padding-left: 22px!important;   
 }                       
-            
-/* ================= Tags ============================*/            
-
+                      
 .tags-section {
     margin-top: 20px;
 }
 
 .tags-input {
-    padding-left: 0px;;
+    padding-left: 0px;
+    
     li{
         margin-top: 20px;
         list-style-type:none;   
-        input 
-            {
-                border: 1px solid #D5D5D5;
-                width: inherit;
-                display: inline-block!important;
-            }
+        input {
+            border: 1px solid #D5D5D5;
+            width: inherit;
+            display: inline-block!important;
+        }
         .btn {
             margin-left: 20px;
-        }
-            
-            }
-}
-               
-/* ================= Locations ============================*/  
+        }            
+    }
+}               
 
 .locations-section {
     margin-top: 20px;
 }
 
 .locations-input {
-    padding-left: 0px;;
+    padding-left: 0px;
+    
     li{
         margin-top: 20px;
         list-style-type:none;   
-        input 
-            {
-                border: 1px solid #D5D5D5;
-                width: inherit;
-                display: inline-block!important;
-            }
+        input {
+            border: 1px solid #D5D5D5;
+            width: inherit;
+            display: inline-block!important;
+        }
         .btn {
             margin-left: 20px;
-        }
-            
-            }
-      }
+        }     
+    }
+}
 
