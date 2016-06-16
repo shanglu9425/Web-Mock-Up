@@ -1,9 +1,9 @@
 
 // People/roles tab
-.search-input {      
+.search-input {
     i {
-        position: absolute; 
-        left: 25px; 
+        position: absolute;
+        left: 25px;
         bottom: 10px;
     }
     input {
@@ -12,7 +12,7 @@
 }
 
 .role-section {
-    tr {    
+    tr {
         .role-title {
             text-align: center; 
         }
@@ -21,18 +21,18 @@
         }
     }
     tr:hover {
-        background: none!important;
+        background: none !important;
     }
-            
+
     tbody {
         tr {
             td {
                 color: black;
-                padding-top:25px;
+                padding-top: 25px;
                 border-bottom: 1px solid #ebebeb;
             }
             th {
-                padding-top:25px;
+                padding-top: 25px;
                 border-bottom: 1px solid #ebebeb;
             }
         }
@@ -43,41 +43,41 @@
     margin-top: 50px;
 }
 
-.table-name-padding { 
+.table-name-padding {
     padding-right: 50px;
     padding-top: 25px;
 }
 
-.table-email-padding { 
-    padding-right: 50px; 
+.table-email-padding {
+    padding-right: 50px;
     padding-top: 25px;
 }
 
 .role-selector {
-    padding-left: 22px!important;   
-}                       
+    padding-left: 22px !important;
+}
 
-// Tags tab                      
+// Tags tab
 .tags-section {
     margin-top: 20px;
 }
 
 .tags-input {
     padding-left: 0px;
-    
+
     li{
         margin-top: 20px;
-        list-style-type:none;   
+        list-style-type: none;
         input {
             border: 1px solid #D5D5D5;
             width: inherit;
-            display: inline-block!important;
+            display: inline-block !important;
         }
         .btn {
             margin-left: 20px;
-        }            
+        }
     }
-}               
+}
 
 // Locations tab
 .locations-section {
@@ -86,18 +86,18 @@
 
 .locations-input {
     padding-left: 0px;
-    
+
     li{
         margin-top: 20px;
-        list-style-type:none;   
+        list-style-type: none;
         input {
             border: 1px solid #D5D5D5;
             width: inherit;
-            display: inline-block!important;
+            display: inline-block !important;
         }
         .btn {
             margin-left: 20px;
-        }     
+        }
     }
 }
 
